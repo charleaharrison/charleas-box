@@ -71,7 +71,7 @@ div.content {
 div.nav {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 25px;
+  margin-top: 20px;
   margin-bottom: 20px;
   width: 100%;
   display: flex;
@@ -171,15 +171,15 @@ div.block {
 .quote {
   text-align: center;
   background: #3E4A40;
-  line-height: 5px;
-  padding: 1px;
+  line-height: 1px;
+  padding-top: 0.5px;
+  padding-bottom: 0.5px;
   font-family: PT serif;
   padding-bottom: 30px;
 }
 
 h3#quote-text {
   color: white;
-  line-height: normal;
 }
 
 h6#quote-author {
@@ -189,6 +189,7 @@ h6#quote-author {
 .banner {
   width: 100%;
   margin-bottom: 0px;
+  height: auto;
 }
 
 .gap {
