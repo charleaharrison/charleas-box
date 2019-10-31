@@ -1,0 +1,209 @@
+/*ADD DISPLAY FLEX FOR SPREADING TILES EVENLY AND NAV*/
+/*CHECK CLASS/ID LABELLING*/
+/*div up everything and make different divs different colours*/
+
+html {
+    background: #B2D0B2;
+}
+
+body {
+    background: #ffffff;
+    font-family: PT serif;
+    font-size: 16px;
+    line-height: 1;
+    margin: 0 auto;
+    max-width: 1000px;
+    height: auto;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+    color: #001E00;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+    color: dimgrey;
+}
+
+h2.fact-file {
+    font-size: 2em;
+    text-align: center;
+    color: dimgrey;
+}
+
+h3 {
+    font-size: 26px; /*make this h2*/
+    text-align: center;
+    color: dimgrey;
+}
+
+a {
+    color: #003100;
+    text-decoration: none;
+}
+
+h4 {
+  display: inline;
+  margin: 2em;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  color: dimgrey;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+div.content {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.nav {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin top: 0px;
+  font-size: 1.2em;
+  height: 50px;
+  background-color: #f8f8f8;
+  align-items: center; /*verticle alignment*/
+}
+
+.top-level {
+  transition: 0.6s ease;
+}
+
+.top-level:hover {
+  font-size: 30px;
+}
+
+.container {
+  position: relative;
+  width: 300px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.image {
+  opacity: 1;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: white;
+  color: dimgrey;
+  font-size: 16px;
+  padding: 15px 15px;
+}
+
+table.file-tiles {
+  width: 100%;
+  text-align: center;
+}
+
+thead {
+  font-size: 1.5em;
+  color: dimgrey;
+}
+
+tr {
+  padding: 300px;
+  margin: 300px;
+}
+
+td {
+  width: 15%;
+  padding-top: 2%;
+  font-size: 1.2em;
+  color: #383838;
+}
+
+.row:hover { /*the colon means when the item is in a certain state (i.e. mouse is hovering) apply this action*/
+  color: green;
+}
+
+div.block {
+  background-color: rgb(0,0,0);
+  color: rgb(255,255,255);
+  display: flex;
+  justify-content: center;/*horizontal alignment*/
+  align-items: center; /*verticle alignment*/
+  flex-direction: column; /*when you resize the browser, the text will stack within its own column*/
+}
+
+.quote {
+  text-align: center;
+  background: #3E4A40;
+  line-height: 8px;
+  padding: 1px;
+  font-family: PT serif;
+  padding-bottom: 30px;
+}
+
+h3#quote-text {
+  color: white;
+  line-height: normal;
+}
+
+h6#quote-author {
+  color: white;
+}
+
+.banner {
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.gap {
+  height: 200px;
+}
+
+.blog {
+  width: 90%;
+}
+
+.blogtitle {
+  text-align: left;
+}
+
+li {
+  line-height: 20px;
+  margin-bottom: 15px;
+}
