@@ -208,3 +208,17 @@ li {
   line-height: 20px;
   margin-bottom: 15px;
 }
+
+button.read-more {
+  border-color: #B2D0B2;
+  background-color: #B2D0B2;
+  color: #202020;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 15%;
+  font-family: PT-serif;
+  font-size: 1em;
+  font-weight: bold;
+}
