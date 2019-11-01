@@ -79,7 +79,8 @@ div.nav {
   margin-right: auto;
   margin-top: 10px;
   margin-bottom: 20px;
-  width: 80%;
+  width: inherit;
+  max-width: 80%;
   display: flex;
   justify-content: space-evenly;
   margin top: 0px;
