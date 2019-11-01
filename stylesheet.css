@@ -9,15 +9,19 @@ html {
 body {
     background: #ffffff;
     font-family: Georgia;
-    font-size: 16px;
+    font-size: 1em;
     line-height: 1;
     margin: 0 auto;
     max-width: 100%;
     height: auto;
 }
 
+p {
+  font-size: 1em;
+}
+
 h1 {
-    font-size: 45px;
+    font-size: 2.5em;
     text-align: center;
     color: #001E00;
     margin-bottom: 0px;
@@ -25,19 +29,19 @@ h1 {
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 1em;
     text-align: center;
     color: dimgrey;
 }
 
 h2.fact-file {
-    font-size: 2em;
+    font-size: 1.8em;
     text-align: center;
     color: dimgrey;
 }
 
 h3 {
-    font-size: 26px; /*make this h2*/
+    font-size: 1.8em; /*make this h2*/
     text-align: center;
     color: dimgrey;
 }
@@ -53,17 +57,18 @@ h4 {
 }
 
 h5 {
-  font-size: 14px;
+  font-size: 0.5em;
 }
 
 h6 {
   color: dimgrey;
-  font-size: 20px;
+  font-size: 1em;
   margin-bottom: 10px;
 }
 
 div.content {
-  width: 90%;
+  width: 95%;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
