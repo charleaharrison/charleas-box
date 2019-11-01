@@ -232,8 +232,7 @@ nav {
   margin-right: auto;
   margin-top: 10px;
   margin-bottom: 20px;
-  width: inherit;
-  max-width: 80%;
+  width: 90%;
   margin top: 0px;
   font-size: 1.2em;
   height: 50px;
@@ -258,17 +257,20 @@ a:hover#menu-icon {
 }
 
 ul {
-
 	list-style: none;
   float: center;
-
 }
 
 li {
-
 	display: inline-block;
 	float: center;
-	padding: 10px
+}
+
+li:dislay {
+	display: inline-block;
+	float: center;
+	margin-left: 30px;
+  margin-right: 30px;
 }
 
 .current {
