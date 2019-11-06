@@ -214,7 +214,6 @@ button.read-more {
 }
 
 header {
-
 	background: #fff;
 	width: 100%;
 	height: 76px;
@@ -223,7 +222,6 @@ header {
 	left: 0;
 	border-bottom: 4px solid #4C9CF1;
 	z-index: 100;
-
 }
 
 .nav {
@@ -234,6 +232,7 @@ header {
 .nav > li {
   flex: 1;
   list-style-type: none;
+  justify-content: center;
 }
 
 li.nav {
